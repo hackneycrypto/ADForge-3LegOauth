@@ -3,6 +3,14 @@
 This app is a working example of Autodesk Forge 3-Legged Authentication with Explicit authorisation code grant
 See - https://forge.autodesk.com/en/docs/oauth/v2/tutorials/get-3-legged-token/
 
+## Pre-Req (oSX Mac)
+
+- `npm install`
+- export FORGE_CLIENT_ID=<<YOUR CLIENT ID FROM DEVELOPER PORTAL>>
+- export FORGE_CLIENT_SECRET=<<YOUR CLIENT SECRET>>
+- export FORGE_CALLBACK_URL=<<YOUR CALLBACK URL>>
+- `npm start`
+
 ## App Workflow
 
 - `npm Start` renders index.html which requires the user to Sign In to Autodesk
